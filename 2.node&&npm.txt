@@ -1,0 +1,31 @@
+****************INSTALAR VERSION ESTABLE
+***************VERSION RECOMENDADA(IGUAL DESDE POWERSHELL COMO ADMINISTRADOR)
+1. Instalacion 
+choco install nodejs-lts --version=14.15.4
+
+2. Comprobacion
+
+node -v
+npm -v
+
+#ambas tienen que retornar la version instalada 
+
+#OPCIONAL(Si es que desea desinstalar la version que tiene)
+
+1.Ejecutar 
+npm cache clean --force
+
+2.Desistalar el programa ya sea desde el instalador/desistalador de apliaciones(si es que lo instalo via 
+instalador oficial de node.js) o si lo instalo desde chocolatey aplique
+
+choco uninstall nodejs-lts --version=14.15.4 //cambiar la version por su version actualmente instalada
+
+3.Busque estas carpetas y elimínelas (y su contenido) si aún existen. Dependiendo de la versión que instaló, la configuración de UAC y la arquitectura de la CPU, pueden existir o no:
+
+C:\Program Files (x86)\Nodejs
+C:\Program Files\Nodejs
+C:\Users\{User}\AppData\Roaming\npm (o %appdata%\npm)
+C:\Users\{User}\AppData\Roaming\npm-cache (o %appdata%\npm-cache)
+C:\Users\{User}\.npmrc (y posiblemente también verifique eso sin el prefijo .)
+C:\Users\{User}\AppData\Local\Temp\npm-*
+

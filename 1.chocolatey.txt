@@ -1,0 +1,11 @@
+****************APLICAR LOS SIGUIENTES COMANDOS EN POWERSHELL COMO ADMINISTRADOR 
+
+1.1 Configurar politicas 
+Set-ExecutionPolicy AllSigned
+
+1.2 Descarga e Instalacion de Chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+1.3 Comprobar instalacion con 
+choco -v
+

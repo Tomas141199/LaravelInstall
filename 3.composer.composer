@@ -1,0 +1,13 @@
+******************************INSTALACION DE COMPOSER VIA CHOCO(USAR POWERSHELL COMO ADMINISTRADOR)
+
+1.Instalar composer
+
+choco install composer
+
+2.Aceptar todo cuando aparezca com A
+Do you want to run the script?: A
+
+3.Comprobar instalacion con (Cerrar y abrir consola)
+
+composer -v
+

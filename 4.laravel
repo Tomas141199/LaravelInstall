@@ -1,0 +1,42 @@
+*****************************************INSTALAR LARAVEL VIA COMPOSER(ABRIR CONSOLA DE POWERSHELL COMO ADMINISTRADOR)
+
+1.Instalar laravel usando composer 
+
+composer global require laravel/installer
+
+2.Verificar ruta de instalacacion(Por lo regular es C:/USERS/TUUSUARIO/APPDATA/ROAMING/COMPOSER)
+##APPDATA es una carpeta oculta#######
+https://support.microsoft.com/es-es/windows/mostrar-archivos-ocultos-0320fe58-0117-fd59-6851-9b7f9840fdb2 
+
+3.Configurar el path
+
+3.1 Abrir el editor de variables de entorno( tecla windows y poner en el buscador "editar las variables de entorno del sistema")
+
+3.2 Seleccionar la pestania "Variables de entorno"
+
+3.3 En variables del sistema presionar el boton "editar" 
+
+3.4 Una vez dentro presionar el boton "Nuevo"
+
+3.5 Pegar el siguiente path
+
+C:\Users\TuUsuario\AppData\Roaming\Composer\vendor\bin
+
+###########OPCIONAL COMPROBAR EL PATH DESDE TU EXPLORADOR DE ARCHIVOS PARA VERFICAR QUE ES LA MISMA RUTA DEL BIN
+
+3.6 Aceptar todo y salir del editor de variables 
+
+3.7 Comprobar el path e instalacion 
+
+abrir powershell y colocar 
+
+laravel 
+
+una vez ejecutado el comando anterior debe salir informacion sobre la version y soporte
+
+
+
+
+
+
+
