@@ -1,0 +1,16 @@
+/***************************************En caso de no saber la ubicacion de sus archivo php.ini
+ejecutar el script de la carpeta php.info en su servidor local 
+
+5.1 Buscar( una vez ejecutado el script o si es sabe la ubicacion omitir este paso)
+Loaded Configuration File
+
+5.2 Abrir el archivo php.ini 
+
+5.3 Descomentar(Eliminar ;)
+extension=curl
+extension=fileinfo
+extension=mbstring
+extension=openssl
+
+5.4 Guardar los cambios y salir
+
