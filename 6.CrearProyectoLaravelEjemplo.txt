@@ -1,9 +1,0 @@
-#######################UNA VEZ TERMINADO TODAS LAS INSTALACIONES Y CONFIGURACIONES CREAR 
-PROYECTO EJEMPLO PARA COMPROBAR LA CORRECTA INSTALACION DE LARAVEL
-
-6.1 Ejecuar powershell como administrador e ir a la ruta(Opcional) /users/tuUsuario/documents/ desde consola y aplicar el comando de abajo
-
-composer create-project laravel/laravel=>7 ejemplo --prefer-dist
-
-######SI TODO SALIO BIEN SE CREARA LA CAPERTA DEL PROYECTO CON TODOS LO ARCHIVOS QUE SE NECESITAN 
-
